@@ -8,14 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		9C3B4C9F2A9E795600E14DC6 /* OracleTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B4C9E2A9E795600E14DC6 /* OracleTestApp.swift */; };
-		9C3B4CA12A9E795600E14DC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B4CA02A9E795600E14DC6 /* ContentView.swift */; };
 		9C3B4CA32A9E795700E14DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3B4CA22A9E795700E14DC6 /* Assets.xcassets */; };
 		9C3B4CA62A9E795700E14DC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3B4CA52A9E795700E14DC6 /* Preview Assets.xcassets */; };
-		9C3B4CA82A9E795700E14DC6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B4CA72A9E795700E14DC6 /* Persistence.swift */; };
-		9C3B4CAB2A9E795700E14DC6 /* OracleTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B4CA92A9E795700E14DC6 /* OracleTest.xcdatamodeld */; };
-		9C3B4CB52A9E795700E14DC6 /* OracleTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B4CB42A9E795700E14DC6 /* OracleTestTests.swift */; };
-		9C3B4CBF2A9E795700E14DC6 /* OracleTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B4CBE2A9E795700E14DC6 /* OracleTestUITests.swift */; };
-		9C3B4CC12A9E795700E14DC6 /* OracleTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B4CC02A9E795700E14DC6 /* OracleTestUITestsLaunchTests.swift */; };
+		9C3B4CD02A9E7A6700E14DC6 /* PrincipalViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B4CCF2A9E7A6700E14DC6 /* PrincipalViewUI.swift */; };
+		9C3B4CD22A9E7A7200E14DC6 /* PrincipalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B4CD12A9E7A7200E14DC6 /* PrincipalViewModel.swift */; };
+		9C3B4CD42A9E7A8100E14DC6 /* PrincipalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B4CD32A9E7A8100E14DC6 /* PrincipalModel.swift */; };
+		9C3B4CD62A9E7A9400E14DC6 /* DetailViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B4CD52A9E7A9400E14DC6 /* DetailViewUI.swift */; };
+		9C3B4CDB2A9E7DC200E14DC6 /* CoinDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B4CDA2A9E7DC200E14DC6 /* CoinDB.swift */; };
+		9C3B4CDE2A9EA11E00E14DC6 /* CacheAsynImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B4CDD2A9EA11E00E14DC6 /* CacheAsynImage.swift */; };
+		9C3B4CE02A9EA2DC00E14DC6 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B4CDF2A9EA2DC00E14DC6 /* SplashScreen.swift */; };
+		9C6416162AA131C70036E910 /* PrincipalViewUITesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6416152AA131C70036E910 /* PrincipalViewUITesting.swift */; };
+		9C6F706B2A9EA7A4003913D7 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6F706A2A9EA7A4003913D7 /* ColorExtension.swift */; };
+		9C7735082AA2402B00E794C3 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7735072AA2402B00E794C3 /* FavoriteView.swift */; };
+		9CF8395F2A9EB02A00D17D0B /* NavigationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF8395E2A9EB02A00D17D0B /* NavigationExtension.swift */; };
+		9CF839612A9EB30400D17D0B /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF839602A9EB30400D17D0B /* StringExtension.swift */; };
+		9CF839632A9FE19900D17D0B /* CoinViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF839622A9FE19900D17D0B /* CoinViewModelTest.swift */; };
+		9CF839652A9FE33D00D17D0B /* CoinModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF839642A9FE33D00D17D0B /* CoinModelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,16 +46,24 @@
 /* Begin PBXFileReference section */
 		9C3B4C9B2A9E795600E14DC6 /* OracleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OracleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C3B4C9E2A9E795600E14DC6 /* OracleTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OracleTestApp.swift; sourceTree = "<group>"; };
-		9C3B4CA02A9E795600E14DC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C3B4CA22A9E795700E14DC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C3B4CA52A9E795700E14DC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9C3B4CA72A9E795700E14DC6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		9C3B4CAA2A9E795700E14DC6 /* OracleTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OracleTest.xcdatamodel; sourceTree = "<group>"; };
 		9C3B4CB02A9E795700E14DC6 /* OracleTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OracleTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C3B4CB42A9E795700E14DC6 /* OracleTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OracleTestTests.swift; sourceTree = "<group>"; };
 		9C3B4CBA2A9E795700E14DC6 /* OracleTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OracleTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C3B4CBE2A9E795700E14DC6 /* OracleTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OracleTestUITests.swift; sourceTree = "<group>"; };
-		9C3B4CC02A9E795700E14DC6 /* OracleTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OracleTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9C3B4CCF2A9E7A6700E14DC6 /* PrincipalViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalViewUI.swift; sourceTree = "<group>"; };
+		9C3B4CD12A9E7A7200E14DC6 /* PrincipalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalViewModel.swift; sourceTree = "<group>"; };
+		9C3B4CD32A9E7A8100E14DC6 /* PrincipalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalModel.swift; sourceTree = "<group>"; };
+		9C3B4CD52A9E7A9400E14DC6 /* DetailViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewUI.swift; sourceTree = "<group>"; };
+		9C3B4CDA2A9E7DC200E14DC6 /* CoinDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDB.swift; sourceTree = "<group>"; };
+		9C3B4CDD2A9EA11E00E14DC6 /* CacheAsynImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheAsynImage.swift; sourceTree = "<group>"; };
+		9C3B4CDF2A9EA2DC00E14DC6 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		9C6416152AA131C70036E910 /* PrincipalViewUITesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalViewUITesting.swift; sourceTree = "<group>"; };
+		9C6F706A2A9EA7A4003913D7 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		9C7735072AA2402B00E794C3 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		9CF8395E2A9EB02A00D17D0B /* NavigationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExtension.swift; sourceTree = "<group>"; };
+		9CF839602A9EB30400D17D0B /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		9CF839622A9FE19900D17D0B /* CoinViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinViewModelTest.swift; sourceTree = "<group>"; };
+		9CF839642A9FE33D00D17D0B /* CoinModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +114,14 @@
 		9C3B4C9D2A9E795600E14DC6 /* OracleTest */ = {
 			isa = PBXGroup;
 			children = (
+				9C3B4CDC2A9EA10B00E14DC6 /* Utils */,
+				9C3B4CDA2A9E7DC200E14DC6 /* CoinDB.swift */,
 				9C3B4C9E2A9E795600E14DC6 /* OracleTestApp.swift */,
-				9C3B4CA02A9E795600E14DC6 /* ContentView.swift */,
+				9C7735062AA2401A00E794C3 /* FavoriteView */,
+				9C3B4CD92A9E7AA900E14DC6 /* SplashScreen */,
+				9C3B4CCE2A9E7A4700E14DC6 /* DetailsView */,
+				9C3B4CCD2A9E7A3A00E14DC6 /* PrincipalView */,
 				9C3B4CA22A9E795700E14DC6 /* Assets.xcassets */,
-				9C3B4CA72A9E795700E14DC6 /* Persistence.swift */,
-				9C3B4CA92A9E795700E14DC6 /* OracleTest.xcdatamodeld */,
 				9C3B4CA42A9E795700E14DC6 /* Preview Content */,
 			);
 			path = OracleTest;
@@ -119,7 +138,8 @@
 		9C3B4CB32A9E795700E14DC6 /* OracleTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				9C3B4CB42A9E795700E14DC6 /* OracleTestTests.swift */,
+				9CF839622A9FE19900D17D0B /* CoinViewModelTest.swift */,
+				9CF839642A9FE33D00D17D0B /* CoinModelTest.swift */,
 			);
 			path = OracleTestTests;
 			sourceTree = "<group>";
@@ -127,10 +147,54 @@
 		9C3B4CBD2A9E795700E14DC6 /* OracleTestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9C3B4CBE2A9E795700E14DC6 /* OracleTestUITests.swift */,
-				9C3B4CC02A9E795700E14DC6 /* OracleTestUITestsLaunchTests.swift */,
+				9C6416152AA131C70036E910 /* PrincipalViewUITesting.swift */,
 			);
 			path = OracleTestUITests;
+			sourceTree = "<group>";
+		};
+		9C3B4CCD2A9E7A3A00E14DC6 /* PrincipalView */ = {
+			isa = PBXGroup;
+			children = (
+				9C3B4CCF2A9E7A6700E14DC6 /* PrincipalViewUI.swift */,
+				9C3B4CD12A9E7A7200E14DC6 /* PrincipalViewModel.swift */,
+				9C3B4CD32A9E7A8100E14DC6 /* PrincipalModel.swift */,
+			);
+			path = PrincipalView;
+			sourceTree = "<group>";
+		};
+		9C3B4CCE2A9E7A4700E14DC6 /* DetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				9C3B4CD52A9E7A9400E14DC6 /* DetailViewUI.swift */,
+			);
+			path = DetailsView;
+			sourceTree = "<group>";
+		};
+		9C3B4CD92A9E7AA900E14DC6 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		9C3B4CDC2A9EA10B00E14DC6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9C3B4CDD2A9EA11E00E14DC6 /* CacheAsynImage.swift */,
+				9C3B4CDF2A9EA2DC00E14DC6 /* SplashScreen.swift */,
+				9C6F706A2A9EA7A4003913D7 /* ColorExtension.swift */,
+				9CF8395E2A9EB02A00D17D0B /* NavigationExtension.swift */,
+				9CF839602A9EB30400D17D0B /* StringExtension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9C7735062AA2401A00E794C3 /* FavoriteView */ = {
+			isa = PBXGroup;
+			children = (
+				9C7735072AA2402B00E794C3 /* FavoriteView.swift */,
+			);
+			path = FavoriteView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +327,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C3B4CA82A9E795700E14DC6 /* Persistence.swift in Sources */,
-				9C3B4CAB2A9E795700E14DC6 /* OracleTest.xcdatamodeld in Sources */,
-				9C3B4CA12A9E795600E14DC6 /* ContentView.swift in Sources */,
+				9C3B4CE02A9EA2DC00E14DC6 /* SplashScreen.swift in Sources */,
+				9C3B4CD02A9E7A6700E14DC6 /* PrincipalViewUI.swift in Sources */,
+				9CF839612A9EB30400D17D0B /* StringExtension.swift in Sources */,
+				9C3B4CD62A9E7A9400E14DC6 /* DetailViewUI.swift in Sources */,
+				9C3B4CD22A9E7A7200E14DC6 /* PrincipalViewModel.swift in Sources */,
+				9C3B4CDB2A9E7DC200E14DC6 /* CoinDB.swift in Sources */,
+				9C3B4CDE2A9EA11E00E14DC6 /* CacheAsynImage.swift in Sources */,
+				9CF8395F2A9EB02A00D17D0B /* NavigationExtension.swift in Sources */,
+				9C3B4CD42A9E7A8100E14DC6 /* PrincipalModel.swift in Sources */,
 				9C3B4C9F2A9E795600E14DC6 /* OracleTestApp.swift in Sources */,
+				9C7735082AA2402B00E794C3 /* FavoriteView.swift in Sources */,
+				9C6F706B2A9EA7A4003913D7 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +346,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C3B4CB52A9E795700E14DC6 /* OracleTestTests.swift in Sources */,
+				9CF839632A9FE19900D17D0B /* CoinViewModelTest.swift in Sources */,
+				9CF839652A9FE33D00D17D0B /* CoinModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C3B4CC12A9E795700E14DC6 /* OracleTestUITestsLaunchTests.swift in Sources */,
-				9C3B4CBF2A9E795700E14DC6 /* OracleTestUITests.swift in Sources */,
+				9C6416162AA131C70036E910 /* PrincipalViewUITesting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,19 +663,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		9C3B4CA92A9E795700E14DC6 /* OracleTest.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				9C3B4CAA2A9E795700E14DC6 /* OracleTest.xcdatamodel */,
-			);
-			currentVersion = 9C3B4CAA2A9E795700E14DC6 /* OracleTest.xcdatamodel */;
-			path = OracleTest.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 9C3B4C932A9E795600E14DC6 /* Project object */;
 }

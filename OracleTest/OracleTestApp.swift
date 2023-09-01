@@ -9,12 +9,10 @@ import SwiftUI
 
 @main
 struct OracleTestApp: App {
-    let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            PrincipalViewUI()
         }
     }
 }
